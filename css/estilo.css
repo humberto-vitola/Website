@@ -1,0 +1,653 @@
+/* Parámetros Globales de Estilo */
+
+h1, h2, h3, h4, h5, h6, p, a, span { font-family: 'simonetta', cursive; }
+
+a {
+    text-decoration: none;
+}
+
+/* Jerarquia de textos */
+
+h1 {
+    
+}
+
+h2 {
+    
+}
+
+h3 {
+    
+}
+
+h4 {
+    
+}
+
+h5 {
+    
+}
+
+h6 {
+    
+}
+
+p {
+    
+}
+
+a {
+    
+}
+
+
+
+/* Estilo Propio del Sitio Web */
+
+body { }
+
+aside#menu-cortina { 
+    display: none; /* Por Ahora */
+}
+
+aside#menu-cortina a#abrir { }
+aside#menu-cortina a#abrir i { }
+aside#menu-cortina a#abrir:hover { }
+aside#menu-cortina a#abrir:hover i { }
+
+aside#menu-cortina a#cerrar { }
+aside#menu-cortina a#cerrar i { }
+aside#menu-cortina a#cerrar:hover { }
+aside#menu-cortina a#cerrar:hover i { }
+
+aside#menu-cortina nav#menu-idioma-movil { }
+aside#menu-cortina nav#menu-idioma-movil a { }
+aside#menu-cortina nav#menu-idioma-movil a:hover { }
+
+aside#menu-cortina nav#menu-principal-movil { }
+aside#menu-cortina nav#menu-principal-movil a { }
+aside#menu-cortina nav#menu-principal-movil a:hover { }
+
+aside#menu-cortina nav#menu-redes-sociales-movil { }
+aside#menu-cortina nav#menu-redes-sociales-movil a { }
+aside#menu-cortina nav#menu-redes-sociales-movil a:hover { }
+
+header {
+    width: 100%;
+    height: 127px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    z-index: 99990;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+header a#logo {
+    width: 85px;
+    height: 108px;
+    display: block;
+    margin: 8px 0 8px 60px;
+    float: left;
+    position: relative;
+}
+header a#logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    top: 0;
+    left: 0;
+    z-index: 99992;
+}
+header a#logo:hover { }
+
+
+header article#header-superior {
+    width: 100%;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #262626;
+}
+header article#header-superior nav#menu-idioma {
+    width: 100px;
+    height: 48px;
+    display: block;
+    margin: 0px 0px 0px 461px;
+    float: left;
+    position: relative; 
+}
+header article#header-superior nav#menu-idioma a {
+    width: 35px;
+    height: 30px;
+    display: block;
+    margin: 5px 3px;
+    float: left;
+    position: relative;
+    background: rgba(169, 165, 169, 0.5);
+    border-radius: 5px;
+    
+    font-size: 1.3em;
+    line-height: 1em;
+    letter-spacing: 0.035em;
+    text-align: center;
+    color: #ebc23e;
+    font-weight: 300;
+    
+    transition: all 0.2s ease-in;
+}
+
+header article#header-superior nav#menu-idioma a:hover {
+    background: #ebc23e;
+    color: #000;
+    transition: all 0.2s ease-in;
+}
+
+header article#header-superior nav#menu-redes-sociales {
+    width: 180px;
+    height: 48px;
+    display: block;
+    margin: 0px 0px 0px 400px;
+    float: left;
+    position: relative;
+}
+header article#header-superior nav#menu-redes-sociales a {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 5px 3px;
+    float: left;
+    position: relative;
+    background: rgba(169, 165, 169, 0.5);
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+header article#header-superior nav#menu-redes-sociales a i {
+    color: #ebc23e;
+    text-align: center;
+    display: block;
+    font-size: 1.45em;
+    padding: 4px 0px 0px 0px;
+    transition: all 0.2s ease-in;
+}
+header article#header-superior nav#menu-redes-sociales a:hover {
+    background: #ebc23e;
+    transition: all 0.2s ease-in;
+}
+header article#header-superior nav#menu-redes-sociales a:hover i {
+    color: #000;
+    transition: all 0.2s ease-in;
+}
+
+header article#header-botones {
+    width: 1200px;
+    height: 75px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: transparent;
+}
+header article#header-botones nav#menu-principal {
+    width: 800px;
+    height: 75px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+header article#header-botones nav#menu-principal a {
+    width: 170px;
+    height: 60px;
+    display: block;
+    margin: 9px 8px;
+    float: left;
+    position: relative;
+    
+    background: rgba(119, 119, 119, 0.32);
+    text-align: center;
+    transition: all 0.2s ease-in;
+}
+
+header article#header-botones nav#menu-principal a span {
+    font-family: 'simonetta', cursive;
+    font-size: 1.8em;
+    line-height: 2em;
+    letter-spacing: 0.035em;
+    color: #ebc23e;
+    font-weight: 300;
+    transition: all 0.2s ease-in;
+}
+header article#header-botones nav#menu-principal a:hover {
+    background: rgba(235, 194, 62, 0.71);
+    transition: all 0.2s ease-in;
+}
+header article#header-botones nav#menu-principal a:hover span {
+    color: #000;
+    transition: all 0.2s ease-in;
+}
+
+
+main {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#slide {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #3e3d3d;
+}
+main section#slide h1 {
+    display: none;
+}
+
+main section#slide article {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#slide article div.caja-slide {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+}
+
+main section#slide article div#fondo-01 {
+    background: url("../img/eich-fotografia-website-fotografia-d.jpg") no-repeat top center;
+    background-size: cover;
+}
+main section#slide article div#fondo-02 {
+    background: url("../img/eich-fotografia-website-documental-b.jpg") no-repeat top center;
+    background-size: cover;
+}
+main section#slide article div#fondo-03 {
+    background: url("../img/eich-fotografia-website-montajismo-c.jpg") no-repeat top center;
+    background-size: cover;
+}
+main section#slide article div#fondo-04 {
+    background: url("../img/eich-fotografia-website-documental-c.jpg") no-repeat top center;
+    background-size: cover;
+}
+main section#slide article div#fondo-05 {
+    background: url("../img/eich-fotografia-website-fotografia-a.jpg") no-repeat top center;
+    background-size: cover;
+}
+
+main section#slide article div a {
+    
+}
+main section#slide article div a:hover { }
+
+.slick-next {
+    right: 45px !important;
+    z-index: 99995
+}
+.slick-next:before {
+    font-size: 50px !important;
+    color: #ebc23e !important;
+}
+
+.slick-prev {
+    left: 15px !important;
+    z-index: 99996
+}
+.slick-prev:before {
+    font-size: 50px !important;
+    color: #ebc23e !important;
+}
+
+.slick-dots {bottom: 42px !important; }
+.slick-dots li button {width: 25px !important; height: 25px !important;}
+.slick-dots li button:before {font-size: 17px !important; color:#ebc23e !important; }
+
+
+main section#quien-soy {
+    width: 100%;
+    height: 720px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #272727;
+}
+main section#quien-soy article#titulo {
+    width: 100%;
+    height: 15%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#quien-soy article#titulo hr#lq1 {
+    height: 3px;
+    width: 5%;
+    background-color: #ebc23e;
+    float: left;
+    border-width: 0px;
+    margin: 55px 10px;
+}
+main section#quien-soy article#titulo h2 {
+    font-family: 'simonetta', cursive;
+    font-size: 3em;
+    line-height: 0em;
+    letter-spacing: 0.035em;
+    color: #ebc23e;
+    font-weight: 300;
+    float: left;
+    margin: 53px 10px;
+}
+main section#quien-soy article#titulo hr#lq2 {
+    height: 3px;
+    width: 74%;
+    background-color: #ebc23e;
+    float: left;
+    border-width: 0px;
+    margin: 55px 10px;
+}
+
+main section#quien-soy article#foto-perfil {
+    width: 30%;
+    height: 85%;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#quien-soy article#foto-perfil img { 
+    margin: 10px 50px;
+}
+main section#quien-soy article#foto-perfil h3 { 
+    font-family: 'simonetta', cursive;
+    font-size: 1.7em;
+    line-height: 0em;
+    letter-spacing: 0.035em;
+    color: #ebc23e;
+    font-weight: 300;
+    float: none;
+    margin: 30px 55px;
+}
+main section#quien-soy article#foto-perfil h4 {
+    font-family: 'simonetta', cursive;
+    font-size: 1.5em;
+    line-height: 0em;
+    letter-spacing: 0.035em;
+    color: #ebc23e;
+    font-weight: 200;
+    float: none;
+    margin: 45px 50px;
+}
+
+main section#quien-soy article#parrafo {
+    width: 70%;
+    height: 85%;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+}
+main section#quien-soy article#parrafo p {
+    font-family: 'simonetta', cursive;
+    font-size: 1.7em;
+    line-height: 1.5em;
+    letter-spacing: 0.035em;
+    color: #ebc23e;
+    font-weight: 100;
+    float: none;
+    margin: 5px 50px;
+}
+main section#quien-soy article#parrafo nav {
+    width: 50%;
+    height: 30%;
+    display: block;
+    margin: 40px 0px;
+    float: left;
+    position: relative;
+}
+
+main section#quien-soy article#parrafo nav a {
+    width: 345px;
+    height: 40px;
+    display: block;
+    margin: 12px 50px;
+    float: left;
+    position: relative;
+    background: rgba(169, 165, 169, 0.3);
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+main section#quien-soy article#parrafo nav a i {
+    color: #ebc23e;
+    text-align: left;
+    display: block;
+    font-size: 1.55em;
+    padding: 7px 10px;
+    transition: all 0.2s ease-in;
+}
+main section#quien-soy article#parrafo nav a:hover {
+    background: #ebc23e;
+    transition: all 0.2s ease-in;
+}
+main section#quien-soy article#parrafo nav a:hover i {
+    color: #000;
+    transition: all 0.2s ease-in;
+}
+
+
+main section#fotografia {
+    width: 100%;
+    height: 720px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #393939;
+}
+main section#fotografia article#intro-fotografia {
+    width: 100%;
+    height: 40%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#fotografia article#intro-fotografia h2 { }
+main section#fotografia article#intro-fotografia p { }
+
+main section#fotografia article#caja-fotos {
+    width: 100%;
+    height: 60%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#fotografia nav a { }
+main section#fotografia nav a img { }
+main section#fotografia nav a:hover { }
+main section#fotografia nav a:hover img { }
+
+main section#fotografia article { }
+main section#fotografia article a { }
+main section#fotografia article a img { }
+main section#fotografia article a:hover { }
+main section#fotografia article a:hover img { }
+
+main section#montajismo {
+    width: 100%;
+    height: 720px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #272727;
+}
+
+main section#montajismo article#intro-montajismo {
+    width: 100%;
+    height: 40%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#montajismo article#intro-montajismo h2 { }
+main section#montajismo article#intro-montajismo p { }
+
+main section#montajismo nav {
+    width: 100%;
+    height: 60%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#montajismo nav a { }
+main section#montajismo nav a img { }
+main section#montajismo nav a:hover { }
+main section#montajismo nav a:hover img { }
+
+main section#montajismo article { }
+main section#montajismo article a { }
+main section#montajismo article a img { }
+main section#montajismo article a:hover { }
+main section#montajismo article a:hover img { }
+
+
+main section#documental {
+    width: 100%;
+    height: 720px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #393939;
+}
+main section#documental article#intro-documental {
+    width: 100%;
+    height: 40%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#documental article#intro-documental h2 { }
+main section#documental article#intro-documental p { }
+
+main section#documental nav {
+    width: 100%;
+    height: 60%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#documental nav a { }
+main section#documental nav a img { }
+main section#documental nav a:hover { }
+main section#documental nav a:hover img { }
+
+main section#documental article { }
+main section#documental article a { }
+main section#documental article a img { }
+main section#documental article a:hover { }
+main section#documental article a:hover img { }
+
+
+footer {
+    width: 100%;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #000;
+}
+
+footer a#logo-footer {
+    width:   60px;
+    height: 72px;
+    display: block;
+    margin: 2px 0 2px 60px;
+    float: left;
+    position: relative;
+}
+footer a#logo-footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 3px 0px;
+    float: none;
+    position: relative;
+}
+footer a#logo-footer:hover { }
+
+
+footer nav#menu-redes-sociales-footer {
+    width: 150px;
+    height: 48px;
+    display: block;
+    margin: 0 0 0 100px;
+    float: right;
+    position: relative;
+}
+
+footer nav#redes-sociels-footer a { }
+footer nav#redes-sociels-footer a i { }
+footer nav#redes-sociels-footer a:hover { }
+footer nav#redes-sociels-footer a:hover i { }
+
+
+
+
+ width: 100%;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #000;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
